@@ -19,5 +19,5 @@ def chat_query_no_context():
         user_current_solution
     )
 
-    response = make_response({"chat_resposne": chat_response})
+    response = make_response({"chat_response": chat_response})
     return response, 200

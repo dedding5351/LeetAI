@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "LeetAI",
+    "icons": {
+        "32": "LeetAI32.png"
+    },
+    "version": "0.0.1",
+    "background": {
+        "service_worker": "service-worker.js",
+        "type": "module"
+    },
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting"
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
